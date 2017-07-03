@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Account Info">
+        <menu>
+            <item
+                android:id="@+id/iv_profile"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/iv_myorder"
+                android:title="My Order" />
+            <item
+                android:id="@+id/iv_share"
+                android:title="Share"
+                />
+            <item
+                android:id="@+id/iv_signout"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

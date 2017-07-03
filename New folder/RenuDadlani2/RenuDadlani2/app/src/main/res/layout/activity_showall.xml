@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    >
+    <!--  Header Part-->`
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="94dp"
+        android:id="@+id/child1"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@drawable/gradient2"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight=".22"
+                >
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo2"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/action_bar_back"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+     Title Part
+     -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail Recieved."
+        android:background="@drawable/gradient2"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingTop="14dp"
+        android:textSize="20dp"
+        android:paddingBottom="14dp"
+        android:gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:weightSum="1">
+
+        <ListView
+            android:id="@+id/list"
+            android:background="#D3D3D3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/row1"
+            android:layout_above="@+id/btn_continue"
+            >
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

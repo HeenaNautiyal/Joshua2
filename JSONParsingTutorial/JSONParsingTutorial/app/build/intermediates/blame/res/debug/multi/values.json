@@ -1,0 +1,378 @@
+[
+    {
+        "outputFile": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 60,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 61,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 61,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 61,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 61,
+                        "endOffset": 462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 63,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 467,
+                        "endColumn": 63,
+                        "endOffset": 526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1198,
+                    "endColumn": 57,
+                    "endOffset": 1251
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1256,
+                    "endColumn": 55,
+                    "endOffset": 1307
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1312,
+                    "endColumn": 58,
+                    "endOffset": 1366
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1380,
+                        "endColumn": 58,
+                        "endOffset": 1434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1371,
+                    "endColumn": 56,
+                    "endOffset": 1423
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1439,
+                        "endColumn": 56,
+                        "endOffset": 1491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1428,
+                    "endColumn": 53,
+                    "endOffset": 1477
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 53,
+                        "endOffset": 1545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1482,
+                    "endColumn": 74,
+                    "endOffset": 1552
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 558,
+                        "endColumn": 74,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1557,
+                    "endColumn": 65,
+                    "endOffset": 1618
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 861,
+                        "endColumn": 65,
+                        "endOffset": 922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1623,
+                    "endColumn": 52,
+                    "endOffset": 1671
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 52,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1676,
+                    "endColumn": 58,
+                    "endOffset": 1730
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 58,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1735,
+                    "endColumn": 52,
+                    "endOffset": 1783
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 52,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1788,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 2074
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2079,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 2234
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2239,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2700
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1777,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2705,
+                    "endLine": 38,
+                    "endColumn": 12,
+                    "endOffset": 2826
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2243,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 2364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2831,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2954
+                },
+                "from": {
+                    "file": "D:\\Heena_Projects\\JSONParsingTutorial\\JSONParsingTutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2369,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 2492
+                    }
+                }
+            }
+        ]
+    }
+]

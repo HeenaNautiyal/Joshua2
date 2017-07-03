@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tw__blue_pressed"
+    tools:context="com.administrator.smeofindia.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll1"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_new"
+            android:scaleType="fitCenter"
+            android:layout_above="@+id/Register"
+            android:id="@+id/iv_new"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_exsisting"
+            android:scaleType="fitCenter"
+            android:id="@+id/iv_exsis"
+            />
+    </LinearLayout>
+</RelativeLayout>

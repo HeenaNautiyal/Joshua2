@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.heena.d2dronyapp.Profile">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/backbtn"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image1"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/image1"
+        android:layout_height="wrap_content"
+        android:id="@+id/inner2"
+        android:weightSum="1"
+        android:layout_weight="1.40">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_marginLeft="6dp"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/text_shadow"
+            android:text="MY PROFILE"/>
+        <View
+            android:id="@+id/SplitLine_hor3"
+            android:layout_width="match_parent"
+            android:layout_height= "1dp"
+            android:layout_below="@+id/message"
+            android:layout_marginTop="10dp"
+            android:background="@color/text_shadow" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:descendantFocusability="beforeDescendants">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="@dimen/btnm1"
+                    android:descendantFocusability="afterDescendants">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="8dp"
+                        android:weightSum="10"
+                        android:layout_height="match_parent">
+
+                        <!--Name -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:gravity="left"
+                            android:weightSum="2"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Name."/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/name"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Heena"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!--    Phone Number-->
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:paddingRight="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Email:"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="213dp"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/number"
+                                    android:layout_gravity="center_horizontal"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="1234567890"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!--   Address-->
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_marginTop="8dp"
+                            android:weightSum="2"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Phone Number"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/Address"
+                                    android:layout_gravity="center_horizontal"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Hno.94 sec.37"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!--     city-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:gravity="left"
+                            android:weightSum="2"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="House No.:"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/houseNumber"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Faridabad"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:gravity="left"
+                            android:weightSum="2"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="City:"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/city"
+                                    android:layout_gravity="left"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/text_shadow"
+                                    android:text="Faridabad"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:gravity="left"
+                                android:weightSum="2"
+                                android:layout_marginTop="8dp"
+                                android:orientation="horizontal">
+                                <LinearLayout
+                                    android:layout_width="110dp"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left"
+                                        android:textSize="18dp"
+                                        android:textColor="@color/text_shadow"
+                                        android:text="House No.:"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/email1"
+                                        android:layout_gravity="left"
+                                        android:textSize="18dp"
+                                        android:textColor="@color/text_shadow"
+                                        android:text="Faridabad"/>
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+                        <!--inner layout-->
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

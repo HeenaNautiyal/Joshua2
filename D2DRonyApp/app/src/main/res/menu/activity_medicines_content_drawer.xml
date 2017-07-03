@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/iv_precribe"
+            android:icon="@drawable/prescribe"
+            android:title="Prescribed Medicine" />
+        <item
+            android:id="@+id/iv_otc"
+            android:icon="@drawable/otc"
+            android:title="OTC" />
+        <item
+            android:id="@+id/iv_daily"
+            android:icon="@drawable/babycare"
+            android:title="Daily Care" />
+        <item
+            android:id="@+id/iv_firstaid"
+            android:icon="@drawable/babycare"
+            android:title="First Aid" />
+
+    </group>
+-->
+    <item android:title="My Account">
+        <menu>
+            <item
+                android:id="@+id/iv_profile"
+                android:icon="@drawable/icon8"
+                android:title="Profile" />
+            <item
+                android:id="@+id/iv_myorder"
+                android:icon="@drawable/i1"
+                android:title="My Order" />
+            <item
+                android:id="@+id/iv_share"
+                android:icon="@drawable/share"
+                android:title="Share"
+                />
+            <item
+                android:id="@+id/iv_signout"
+                android:icon="@drawable/signout_128"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:paddingRight="28dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="28dp"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        >
+
+              <!--Layout1-->
+
+
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_skip"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:textSize="18dp"
+            android:textColor="@color/text_shadow"
+            android:text="Skip"
+            android:layout_weight="0.29" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inner1"
+            android:weightSum="1"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:layout_weight="0.29"
+                android:textColor="@color/text_shadow"
+                android:text="PRESCRIPTION"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.22"
+                android:layout_below="@id/tv1"
+                android:id="@+id/ineerlayout1"
+                android:orientation="vertical"
+                android:background="@drawable/laydesign"
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/maingreen"
+                    android:layout_gravity="center_horizontal"
+                    android:weightSum="3"
+                    android:layout_height="wrap_content">
+                    <!--text -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv2"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:text="You can upload total 4 prescription per order"/>
+
+                    </LinearLayout>
+                    <!--
+                                    Image-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/upload"
+                            android:id="@+id/image_upload"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <!--    Text-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv3"
+                            android:layout_gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="@color/text_shadow"
+                            android:text="Please upload the back-side of your prescription"/>
+                    </LinearLayout>
+                    <!--inner layout-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--  layout2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inner2"
+            android:weightSum="1"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv4"
+                android:layout_weight="0.29"
+                android:textColor="@color/text_shadow"
+                android:text="DETAILS"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/maingreen"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <!--Name -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/name"
+                        android:layout_gravity="left"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:text="Heena"/>
+
+                </LinearLayout>
+                <!--
+                                Email-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/email"
+                        android:layout_gravity="left"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:text="abc@gmail.com"/>
+
+
+                </LinearLayout>
+
+                <!--    Phone Number-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/number"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="1234567890"/>
+                </LinearLayout>
+                <!--inner layout-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--   Layout 3-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inner3"
+            android:weightSum="2"
+            android:layout_weight="0.68">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_weight="0.79"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:textColor="@color/text_shadow"
+                android:text="DELIVERY ADDRESS"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="0.50"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6"
+        android:gravity="center"
+        android:textColor="@color/text_shadow"
+        android:text="EDIT"
+        android:layout_weight="1.16" />
+
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/last"
+                android:background="@color/maingreen"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <!--Name -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/address1"
+                        android:layout_gravity="left"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:text="Hno.94 PallaNo.1"/>
+
+                </LinearLayout>
+                <!--
+                                Email-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/address2"
+                        android:layout_gravity="left"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:text="Shiv Colony Sehatpur Road"/>
+
+
+                </LinearLayout>
+
+                <!--    Phone Number-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/address3"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Faridabad"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/address4"
+                        android:layout_gravity="left"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:text="Haryana"/>
+
+
+                </LinearLayout>
+                <!--inner layout-->
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--    buton-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/inner2"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/btn_continue2"
+                android:layout_height="wrap_content"
+                android:text="UPLOAD PRESCRIPTION "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/darkgreen"/>
+            <!--text -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

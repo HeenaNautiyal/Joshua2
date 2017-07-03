@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.heena.D2DMedical.Termspage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lay1"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgback"
+            android:src="@drawable/back2_icon"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Terms  &amp; Conditions"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lay1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/gradient2"
+        android:layout_height="wrap_content">
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lay2"
+            android:fillViewport="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="10dp"
+                android:text="If you have any questions regarding medicines provided on D2dmedicine portal please contact the  concerned chemist . Please do not contact D2dmedicines. We are not able to assist you. D2dmedicines disclaims content contained in this medicine potal we are only providing a platform between user and chemist to get connected in real time. D2d is not authorized to give any information about content and not responsible
+    for medicine provided by third party/chemist.\n  For more information, please contact us:\n http://d2dmedicine.com "/>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.administrator.d2d.NevdemoContent"
+    tools:showIn="@layout/app_bar_nevdemo_content"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:id="@+id/lay12"
+            android:weightSum="3"
+            android:background="@color/lightgreen"
+            android:paddingBottom="@dimen/btntp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/layinner1"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btn_continue2"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginBottom="@dimen/padd"
+                    android:layout_height="27dp"
+                    android:text="First Aid "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="@color/maingreen"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/layinner2"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btn_precmed"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="@dimen/padd"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginBottom="@dimen/padd"
+                    android:text="Prescribe Medicine"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="@color/maingreen"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/layinner3"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btn_continue23"
+                    android:layout_marginTop="@dimen/padd"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginBottom="@dimen/padd"
+                    android:layout_height="31dp"
+                    android:text="OTC-Over-the-counter "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="@color/maingreen"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/layinner4"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btn_continue24"
+                    android:layout_marginTop="@dimen/padd"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginBottom="@dimen/padd"
+                    android:layout_height="31dp"
+                    android:text="Daily Care"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="@color/maingreen"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="26dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/btnm1"
+                android:layout_height="match_parent"
+                android:background="@drawable/add"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

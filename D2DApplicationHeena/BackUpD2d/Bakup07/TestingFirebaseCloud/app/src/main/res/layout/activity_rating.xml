@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/door"/>
+    <TextView
+        android:id="@+id/lblRateMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Delivered"
+        android:layout_gravity="center"
+        android:textColor="#015480"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtRatingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Care"
+        android:textColor="@color/text_shadow"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <View
+        android:id="@+id/SplitLine_hor3"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:layout_below="@+id/lay1"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey" />
+    <TextView
+        android:id="@+id/txtRatingValu2"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_shadow"
+        android:layout_height="wrap_content"
+        android:text="Please rate your Shopping Experience"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:focusable="false"
+        android:stepSize=".5"
+        android:layout_gravity="center"
+        android:rating="0.0"
+        android:theme="@style/golden"/>
+
+    Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

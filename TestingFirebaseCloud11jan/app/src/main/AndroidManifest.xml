@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heena.testingfirebasecloud">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    .
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.example.heena.testingfirebasecloud.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.heena.testingfirebasecloud.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.heena.testingfirebasecloud.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.heena.testingfirebasecloud.Mem" />
+        <activity android:name="com.heena.testingfirebasecloud.MainActivity" />
+        <activity android:name="com.heena.testingfirebasecloud.ForgetPassword" />
+        <activity android:name="com.heena.testingfirebasecloud.Login" />
+        <activity android:name="com.heena.testingfirebasecloud.UploadMedicine" />
+        <activity android:name="com.heena.testingfirebasecloud.Chemistupload" />
+        <activity android:name="com.heena.testingfirebasecloud.Nearchemeist" />
+        <activity android:name="com.heena.testingfirebasecloud.Chemis" />
+        <activity android:name="com.heena.testingfirebasecloud.UploadPresc" />
+        <activity android:name="com.heena.testingfirebasecloud.YourDialog" />
+        <activity android:name="com.heena.testingfirebasecloud.OrderTrack" />
+        <!--
+            <a.heena.testingfirebasecloud.MedicinesContent"
+            android:label="@string/title_activity_medicines_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
+
+        <activity android:name="com.heena.testingfirebasecloud.Addressadd" />
+        <activity
+            android:name="com.heena.testingfirebasecloud.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.heena.testingfirebasecloud.Profile" />
+        <activity
+            android:name="com.heena.testingfirebasecloud.Aid"
+            android:label="@string/title_activity_aid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.heena.testingfirebasecloud.FirstAid"
+            android:label="@string/title_activity_first_aid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.heena.testingfirebasecloud.Ordernow" />
+        <activity android:name="com.heena.testingfirebasecloud.FirstAid1" />
+        <activity android:name="com.heena.testingfirebasecloud.RegisterOption" />
+        <activity android:name="com.heena.testingfirebasecloud.Register" />
+        <activity android:name="com.heena.testingfirebasecloud.CheRegis" />
+        <activity android:name="com.heena.testingfirebasecloud.Tokengen" />
+        <activity android:name="com.heena.testingfirebasecloud.Ratingclass" />
+
+        <!--           GCM Receiver -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.gnirt69.gcmexample" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.heena.testingfirebasecloud.MyBroadcastReceiver"></receiver>
+        <!--             GCM Receiver Service -->
+        <service
+            android:name="com.heena.testingfirebasecloud.GCMPushReceiverService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <!--             GCM Registration Intent Service -->
+        <service
+            android:name="com.heena.testingfirebasecloud.GCMRegistrationIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.heena.testingfirebasecloud.OrderList"></activity>
+    </application>
+
+</manifest>

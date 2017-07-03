@@ -1,0 +1,451 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#015480">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:id="@+id/imgback"
+            android:src="@drawable/back2_icon"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:scaleType="fitEnd"
+            android:src="@drawable/door"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:text="Email Id"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView4" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/layoutTop"
+        android:id="@+id/lay1"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout11"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_above="@+id/linearLayout13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/lineotc"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="OTC"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback4"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout12"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/linepresc"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Prescribed"
+                android:layout_weight="0.28" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback6"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout13"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/linebaby"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Baby Care"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback7"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout14"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/lineFirst"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="FirstAid"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback3"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout15"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/lineDaily"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Daily Care"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback2"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+  <!--  <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/layoutTop" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/linepresc"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Prescribed"
+                android:layout_weight="0.28" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback6"
+                android:src="@drawable/forwardsingle"
+                />
+        </LinearLayout>
+
+
+
+     &lt;!&ndash;     ll10&ndash;&gt;
+         &lt;!&ndash;   <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/card_background_selector2"
+                android:descendantFocusability="afterDescendants"
+                android:id="@+id/linearLayout10"
+                android:layout_above="@+id/linearlayout11"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="37dp">
+
+                <TextView
+                    android:id="@+id/linepresc"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="26dp"
+                    android:textStyle="italic"
+                    android:layout_height="wrap_content"
+                    android:text="Prescribed"
+                    android:layout_weight="0.28" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/imgback6"
+                    android:src="@drawable/forwardsingle"
+                    />
+            </LinearLayout>&ndash;&gt;
+
+&lt;!&ndash;           ll11  &ndash;&gt;
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:id="@+id/linearlayout11"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_above="@+id/linearLayout13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/linebaby"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Baby Care"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+
+&lt;!&ndash;         ll12   &ndash;&gt;
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:id="@+id/linearLayout12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/lineotc"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="OTC"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback4"
+                android:src="@drawable/forwardsingle"
+                />
+
+        </LinearLayout>
+&lt;!&ndash;    ll13   &ndash;&gt;
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:id="@+id/linearLayout13"
+            android:layout_above="@+id/linearlayout14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="38dp">
+
+            <TextView
+                android:id="@+id/lineFirst"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="FirstAid"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback3"
+                android:src="@drawable/forwardsingle"
+                />
+        </LinearLayout>
+&lt;!&ndash;    ll14&ndash;&gt;
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/linearlayout14"
+            android:paddingRight="15dp"
+            android:background="@drawable/card_background_selector2"
+            android:descendantFocusability="afterDescendants"
+            android:layout_marginBottom="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/lineDaily"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Daily Care"
+                android:layout_weight="0.28" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:id="@+id/imgback2"
+                android:src="@drawable/forwardsingle"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>-->
+</RelativeLayout>

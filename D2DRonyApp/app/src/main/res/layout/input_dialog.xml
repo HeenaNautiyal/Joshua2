@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter a pincode"
+        android:layout_gravity="center"
+        android:textColor="@color/text_shadow"
+        android:id="@+id/textView" />
+    <View
+        android:id="@+id/SplitLine_hor3"
+        android:layout_width="172dp"
+        android:layout_height= "1dp"
+        android:layout_below="@+id/message"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_shadow" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnm1"
+        android:background="@drawable/textback">
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="6 digit pincode here"
+            android:inputType="number"
+            android:padding="10dp" />
+    </LinearLayout>
+</LinearLayout>

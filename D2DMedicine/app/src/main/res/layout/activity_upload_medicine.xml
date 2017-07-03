@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image1"
+        android:layout_centerHorizontal="true" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_marginBottom="@dimen/padd"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_upload"
+            android:layout_marginTop="@dimen/padd"
+            android:layout_marginLeft="@dimen/btnm1"
+            android:layout_marginRight="@dimen/btnm1"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="31dp"
+            android:text="Upload Medicine"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@color/maingreen"/>
+
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/action_back"
+        android:id="@+id/lay1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:paddingRight="46dp"
+            android:paddingLeft="36dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_below="@+id/action_back">
+
+            &lt;!&ndash;Edit Text&ndash;&gt;
+            <LinearLayout
+                android:layout_width="306dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:background="@color/green"
+                android:layout_marginTop="6dp"
+                android:layout_below="@+id/action_back"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:id="@+id/teview"
+                    android:text="UPLOAD MEDICINE"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+                    android:textSize="14dp"/>
+                <View
+                    android:id="@+id/SplitLine_hor3"
+                    android:layout_width="match_parent"
+                    android:layout_height= "1dp"
+                    android:layout_below="@+id/message"
+                    android:layout_marginTop="1dp"
+                    android:background="#d3d3d3" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/ed_catid"
+                    android:paddingLeft="10dp"
+                    android:hint="Category Id"
+                    android:textColorHint="#00c200"
+                    android:inputType="number"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ed_medname"
+                    android:paddingLeft="10dp"
+                    android:hint="Medicine Name"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ed_manu"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Manufacture by"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true"/>
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_comp"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="composition"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_chemist"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Added by Chemist"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_date"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Date"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/tv_ip"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:text="User Ip"
+                    android:textColor="#00c200"
+                    android:paddingTop="8dp"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"/>
+                &lt;!&ndash;<EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_Hno"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="User Ip"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />&ndash;&gt;
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_stock"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Stock"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+
+            &lt;!&ndash; Login button &ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btn_submit"
+                    android:layout_marginTop="@dimen/padd"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginBottom="@dimen/padd"
+                    android:layout_height="31dp"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="@color/maingreen"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>-->
+</LinearLayout>
+
+</RelativeLayout>

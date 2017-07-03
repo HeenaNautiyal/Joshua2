@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "825876707110",
+    "project_id": "firebase-d2dmedical"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825876707110:android:ca66b2dbfa862eaa",
+        "android_client_info": {
+          "package_name": "com.heena.D2dMedicine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDBXwimr4nNr09uyjUG--fkVTdY2AobeA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

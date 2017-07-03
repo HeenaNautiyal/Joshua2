@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:id="@+id/lay1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:paddingRight="46dp"
+            android:paddingLeft="36dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_below="@+id/action_back">
+
+            <!--Edit Text-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_below="@+id/action_back"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">  <!--Edit Text-->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:id="@+id/imgback"
+                        android:src="@drawable/back2_icon"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/teview"
+                        android:text="Upload Medicine..."
+                        android:textStyle="italic"
+                        android:textSize="30dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="#015480"
+                        android:gravity="center"
+                        android:layout_weight="1" />
+</LinearLayout>
+
+               <!-- cateogry Id-->
+               <!-- <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/ef_catid"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="#d3d3d3"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:focusableInTouchMode="true"
+                    android:hint="Category Id"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"/>-->
+                <Spinner
+                    android:id="@+id/ef_catid"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/gradient2"
+                    android:layout_height="40dp"
+                    style="@style/mySpinnerItemStyle2"
+                    android:prompt="@string/spinner_title2"/>
+               <!--subcategory Id-->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ef_subcat"
+                    android:paddingLeft="10dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:textColor="@color/text_shadow"
+                    android:hint="Sub-Categories"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+               <!--   Medicine Name-->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ed_Medicine"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_shadow"
+                    android:hint="Medicine Name"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true"/>
+               <!--  Manufacture by-->
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_manufactur"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_shadow"
+                    android:hint="Manufacture-by"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+               <!--    Composition-->
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_comp"
+                    android:textSize="16dp"
+                    android:textColor="@color/text_shadow"
+                    android:paddingLeft="10dp"
+                    android:hint="Compositions"
+                    android:inputType="textMultiLine"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+               <!--   Description-->
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_desc"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_shadow"
+                    android:hint="Description"
+                    android:inputType="textMultiLine"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+               <!-- Price-->
+                EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_price"
+                    android:textSize="16dp"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="10dp"
+                    android:hint="Price"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text"
+                    android:id="@+id/myRadioGroup"
+                    android:layout_marginTop="6dp"
+                    android:checkedButton="@+id/sound" >
+
+
+
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/text_shadow"
+                    android:id="@+id/ed_add"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Added-by(Email-Id)"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/text_shadow"
+                    android:id="@+id/ed_Date"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Date"
+                    android:paddingTop="10dp"
+                    android:inputType="number"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/ed_Ip"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Ip-Address"
+                    android:inputType="number"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/text_shadow"
+                    android:id="@+id/ed_stock"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Stock-Available"
+                    android:inputType="number"
+                    android:textColorHint="#d3d3d3"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_tab"
+                        android:text="Tablets" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_liquid"
+                        android:text="Liquid" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_injec"
+                        android:text="Injected" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_your"
+                        android:text="Your Choice" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <!-- Login button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="26dp"
+                    android:layout_below="@+id/layout3"
+                    android:textColor="#ffffff"
+                    android:text="Submit"
+                    android:id="@+id/btn_continue"
+                    android:layout_alignParentBottom="true"
+                    android:background="#015480"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

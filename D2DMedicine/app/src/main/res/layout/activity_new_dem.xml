@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.administrator.d2dmedicine.NewDem"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/textback"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/padind"
+            android:layout_marginTop="@dimen/btnm1"
+            android:layout_marginRight="@dimen/padind"
+            android:layout_marginBottom="@dimen/btnm1"
+            android:weightSum="2">
+            &lt;!&ndash;       1st layout&ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:background="@drawable/gradient2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/product1"
+                        android:background="@drawable/med_icon"
+                        android:layout_marginLeft="86dp"
+                        android:layout_marginRight="86dp"
+                         />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    >
+                    &lt;!&ndash;<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Medicine: "/>&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:text="Medicine:"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:id="@+id/tvmain"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text=""/>
+                        </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Menufacture by:"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="20dp"
+                        android:id="@+id/tv_comp"
+                        android:textStyle="bold"
+                        android:text="Hi"/>
+                        </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:gravity="center"
+                        android:textColor="@color/text_shadow"
+                        android:id="@+id/tv_add"
+                        android:text=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+            &lt;!&ndash;    2nd layout&ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:background="@color/lightgreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/btnm1"
+                    android:layout_marginRight="@dimen/btnm1"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/laybutton"
+                    android:background="@color/lightgreen"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/im12"
+                        android:background="@drawable/order_now"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>-->
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    android:orientation="horizontal"
+    android:id="@+id/lay1"
+
+    android:weightSum="1">
+
+       
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:padding="14dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout"
+        android:background="@drawable/gradient2"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicine:"
+            android:textColor="#000000"
+            android:shadowRadius="6"
+            android:textStyle="bold"
+            android:id="@+id/tv_comp"
+            android:textSize="20dp"
+            android:paddingTop="9dp"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicine:"
+            android:textColor="@color/text_shadow"
+            android:textStyle="bold"
+            android:shadowRadius="6"
+            android:id="@+id/textView2"
+            android:textSize="22dp"
+            android:paddingTop="18dp"
+            android:layout_weight=".5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvmain"
+            android:text="Medicine:"
+            android:textColor="@color/text_shadow"
+            android:textSize="20dp"
+            android:shadowRadius="6"
+            android:paddingTop="6dp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/tv_comp"
+            android:layout_alignStart="@+id/tv_comp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Manufacture:"
+            android:textColor="@color/text_shadow"
+            android:textStyle="bold"
+            android:shadowRadius="6"
+            android:id="@+id/textView3"
+
+            android:textSize="22dp"
+            android:paddingLeft="0dp"
+            android:layout_weight=".05"
+            android:paddingTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/im12"
+            android:background="@drawable/order_now"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

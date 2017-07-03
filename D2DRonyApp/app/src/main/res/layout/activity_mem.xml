@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:id="@+id/Text1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="D2D would like to use your location to customise your Chemist."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/btn_user"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Text1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/geo_targeting_local_search_512"
+        android:textColor="#ffffff"
+         />
+
+       <!-- <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="@dimen/btnm1"
+            android:layout_marginRight="@dimen/btnm1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Get GPS Location"
+                android:id="@+id/btnGPSShowLocation"
+                android:layout_marginTop="@dimen/btnm1"
+                android:textColor="@color/white"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="8"
+                android:shadowDy="8"
+                android:background="@drawable/buttongradient"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Use Pincode"
+                android:id="@+id/btnpincode"
+                android:layout_marginTop="@dimen/btnm1"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="8"
+                android:shadowDy="8"
+                android:textColor="@color/white"
+                android:background="@drawable/buttongradient"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAddress"
+                android:layout_marginTop="@dimen/btnm1"
+                android:textSize="@dimen/btnm1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/buttongradient"
+            android:id="@+id/lay1"
+            android:layout_below="@+id/btn_user"
+            android:layout_marginTop="40dp"
+            >
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Gps"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="4dp"
+                android:textStyle="bold"
+                android:id="@+id/btnGPSShowLocation"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:background="#015480"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Pincode"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="4dp"
+                android:id="@+id/btnpincode"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:background="#015480"/>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

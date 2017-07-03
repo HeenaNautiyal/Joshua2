@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bizhawkz.emotionallyfreetv.joshua.TVseries">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        android:paddingLeft="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableRight="@drawable/arrows_forward_icon"
+                android:gravity="center"
+                android:drawableLeft="@drawable/logo"
+                android:text="E2-How to Have More Energy and Be High on Life!"
+                android:textColor="@color/dark"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableRight="@drawable/arrows_forward_icon"
+                android:gravity="center"
+                android:drawableLeft="@drawable/logo"
+                android:text="E2-How to Have More Energy and Be High on Life!"
+                android:textColor="@color/dark"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableRight="@drawable/arrows_forward_icon"
+                android:gravity="center"
+                android:drawableLeft="@drawable/logo"
+                android:text="E1-How to Shift Negative Thoughts For Good!"
+                android:textColor="@color/dark"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableRight="@drawable/arrows_forward_icon"
+                android:gravity="center"
+                android:drawableLeft="@drawable/logo"
+                android:text="E1-How to Shift Negative Thoughts For Good!"
+                android:textColor="@color/dark"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

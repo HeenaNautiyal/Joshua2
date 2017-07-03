@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/background"
+    >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/image1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image1"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:id="@+id/lay3"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv2"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/text_shadow"
+                android:text="SELECT CHEMIST"/>
+            <View
+                android:id="@+id/SplitLine_hor3"
+                android:layout_width="219dp"
+                android:layout_height= "1dp"
+                android:layout_below="@+id/message"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:background="#080808" />
+           <!-- <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="2dp"
+                android:choiceMode="singleChoice"
+                tools:listitem="@layout/row"
+                android:layout_weight="1.88"/>-->
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="338dp"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:dividerHeight="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/lay3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_continue"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/darkgreen"
+                />
+
+            <!--text -->
+        </LinearLayout>
+                Image-->
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.heena.testingfirebasecloud.Aid"
+    tools:showIn="@layout/app_bar_aid"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lay1"
+        android:background="#018ED6">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"
+            android:text="FIRST AID"/>
+    </LinearLayout>
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_below="@+id/lay1">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/row2"
+        ></ListView>
+</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        android:layout_below="@+id/lay1"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row2"
+            android:layout_above="@+id/layinner4">
+        </ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/layinner4"
+            android:layout_marginTop="@dimen/padd"
+            android:background="@color/lightgreen"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/btn_continue24"
+                android:layout_marginTop="@dimen/padd"
+                android:layout_marginLeft="@dimen/btnm1"
+                android:layout_marginRight="@dimen/btnm1"
+                android:layout_marginBottom="@dimen/padd"
+                android:layout_height="31dp"
+                android:text="Oder Now"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/maingreen"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+

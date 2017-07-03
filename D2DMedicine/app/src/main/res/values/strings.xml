@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">D2DMedicine</string>
+    <string name="title_activity_item">ItemActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_items">D2D</string>
+    <string name="title_activity_nav_med">Upload Prescription(s)</string>
+    <string name="title_activity_nevdemo_content">D2D Medicines</string>
+    <string name="title_activity_medicine_detail">MedicineDetail</string>
+    <string name="title_activity_medicines_content">MedicinesContent</string>
+</resources>

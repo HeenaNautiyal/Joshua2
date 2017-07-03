@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "99256623936",
+    "project_id": "firebase-renudadlani"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99256623936:android:bfad89621f869ed7",
+        "android_client_info": {
+          "package_name": "com.example.administrator.androidgcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpftKSuDWnv2dDbS66b0cygjaTY3BSHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99256623936:android:96ba1f72b65f5ee3",
+        "android_client_info": {
+          "package_name": "com.example.administrator.renudadlani"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpftKSuDWnv2dDbS66b0cygjaTY3BSHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99256623936:android:4d55799cbed8f5ff",
+        "android_client_info": {
+          "package_name": "com.example.administrator.anb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpftKSuDWnv2dDbS66b0cygjaTY3BSHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99256623936:android:14ac1f99c8f59022",
+        "android_client_info": {
+          "package_name": "com.example.administrator.renudadlaniapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpftKSuDWnv2dDbS66b0cygjaTY3BSHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

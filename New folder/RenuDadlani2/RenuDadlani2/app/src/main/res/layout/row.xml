@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkbox"
+            android:layout_alignParentLeft="true"/>
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="8"
+            android:text="dadlanirenu@hotmail.com"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            autofit:minTextSize="20dp"
+            android:textColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:singleLine="true"
+            android:shadowRadius="6"
+            android:textStyle="bold"
+            android:id="@+id/tvDateOfBirth"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="9dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/chkbox"
+            android:layout_toRightOf="@+id/chkbox" />
+
+
+
+</RelativeLayout>
+    </LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">D2DMedicine</string>
+    <string name="title_activity_medicines_content">MedicinesContent</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Search</string>
+    <string name="title_activity_main2"></string>
+    <string name="title_activity_aid">Aid</string>
+    <string name="title_activity_first_aid">FirstAid</string>
+    <string name="spinner_title">Monthly</string>
+    <string name="spinner_title2">Monthly</string>
+    <string name="Sound">Sound</string>
+    <string name="Vibration">Vibration</string>
+    <string name="Silent">Silent</string>
+    <string name="Choose">Choose</string>
+    <string name="title_activity_main3">D2d Medical</string>
+
+</resources>

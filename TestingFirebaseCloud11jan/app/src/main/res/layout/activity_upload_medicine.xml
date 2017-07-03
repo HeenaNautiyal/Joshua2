@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicineblue"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/padd"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_upload"
+            android:layout_marginTop="@dimen/padd"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Upload Medicines"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_notify"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Notification"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+
+    </LinearLayout>
+  </RelativeLayout>

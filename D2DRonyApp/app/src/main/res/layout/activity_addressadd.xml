@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.heena.d2dronyapp.Addressadd">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/backbtn"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image1"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:id="@+id/lay3"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv2"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/text_shadow"
+                android:text="Delievery Address"/>
+            <View
+                android:id="@+id/SplitLine_hor3"
+                android:layout_width="219dp"
+                android:layout_height= "1dp"
+                android:layout_below="@+id/message"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:background="#080808" />
+            &lt;!&ndash; <ListView
+                 android:id="@+id/list"
+                 android:layout_width="match_parent"
+                 android:layout_height="300dp"
+                 android:layout_marginTop="2dp"
+                 android:choiceMode="singleChoice"
+                 tools:listitem="@layout/row"
+                 android:layout_weight="1.88"/>&ndash;&gt;
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_pincode"
+                android:hint="PINCODE"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_fullname"
+                android:hint="FULLNAME"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_number"
+                android:hint="MOBILE NUMBER"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_address"
+                android:hint="ADDRESS"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_landmark"
+                android:hint="LANDMARK"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_city"
+                android:hint="CITY"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_state"
+                android:hint="STATE"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/lay3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_continue"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/darkgreen"
+                />
+            &lt;!&ndash;text &ndash;&gt;
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/backbtn"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/action_back"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/action_back"
+        android:id="@+id/lay1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:paddingRight="46dp"
+            android:paddingLeft="36dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_below="@+id/action_back">
+
+            <!--Edit Text-->
+            <LinearLayout
+                android:layout_width="306dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:background="@color/green"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/action_back"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:id="@+id/teview"
+                    android:text="Delievery Address"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+                    android:textSize="14dp"/>
+                <View
+                    android:id="@+id/SplitLine_hor3"
+                    android:layout_width="match_parent"
+                    android:layout_height= "1dp"
+                    android:layout_below="@+id/message"
+                    android:layout_marginTop="1dp"
+                    android:background="#d3d3d3" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/ef_mailid"
+                    android:paddingLeft="10dp"
+                    android:hint="Email Id"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ef_number"
+                    android:paddingLeft="10dp"
+                    android:hint="Mobile Number"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ed_pincode"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Pincode"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true"/>
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_address"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Address"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_city"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="city"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_state"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:hint="State"
+                    android:textColorHint="#00c200"
+                    android:background="@drawable/gradient2"
+                    android:singleLine="true"
+                    />
+
+                </LinearLayout>
+            <!-- Login button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <ImageView
+                    android:id="@+id/btn_Submit"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18dp"
+                    android:background="@drawable/register"
+                    android:textColor="#ffffff"
+                    android:text="Register"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

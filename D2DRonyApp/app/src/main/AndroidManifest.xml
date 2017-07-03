@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heena.d2dronyapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.heena.d2dmedicine.Tokengen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.heena.d2dmedicine.Login" />
+        <activity android:name="com.heena.d2dmedicine.Register" />
+        <activity android:name="com.heena.d2dmedicine.RegisterOption" />
+        <activity android:name="com.heena.d2dmedicine.ForgetPassword" />
+        <activity android:name="com.heena.d2dmedicine.ChemLog" />
+        <activity android:name="com.heena.d2dmedicine.Nearchemeist" />
+        <activity android:name="com.heena.d2dmedicine.Chemistupload" />
+        <activity android:name="com.heena.d2dmedicine.ForgetPasswordChem" />
+        <activity android:name="com.heena.d2dmedicine.UploadMedicine" />
+        <activity android:name="com.heena.d2dmedicine.SearchChemist" />
+        <activity android:name="com.heena.d2dmedicine.Chemis" />
+        <activity android:name="com.heena.d2dmedicine.UploadPresc" />
+        <activity android:name="com.heena.d2dmedicine.DemoChem" />
+        <activity
+            android:name="com.heena.d2dmedicine.MedicinesContent"
+            android:label="@string/title_activity_medicines_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.heena.d2dmedicine.OTCClass" />
+        <activity android:name="com.heena.d2dmedicine.FirstAid" />
+        <activity android:name="com.heena.d2dmedicine.MainActivity" />
+        <activity android:name="com.heena.d2dmedicine.CheRegis" />
+        <activity android:name="com.heena.d2dmedicine.DailyCare" />
+        <activity android:name="com.heena.d2dmedicine.OrderTrack" />
+        <activity android:name="com.heena.d2dmedicine.Profile" />
+        <activity android:name="com.heena.d2dmedicine.Confirm" />
+        <activity android:name="com.heena.d2dmedicine.Addressadd" />
+        <activity android:name="com.heena.d2dmedicine.Mem" />
+        <activity android:name="com.heena.d2dmedicine.Main2Activity" />
+
+        <service android:name="com.heena.d2dmedicine.FireIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.heena.d2dmedicine.Register2" >
+        </activity>
+    </application>
+
+</manifest>

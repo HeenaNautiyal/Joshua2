@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicineblue"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/iv_profile"
+                android:src="@drawable/pharmacist_male"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:id="@+id/mail1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/padd"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btnRecieve"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Recieved Orders"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_upload"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Upload Medicines"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_notify"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Medicine Summary"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/btn_Contact"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/padd"
+            android:layout_height="38dp"
+            android:text="Contact Admin"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="#015480" />
+
+
+    </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/logof"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

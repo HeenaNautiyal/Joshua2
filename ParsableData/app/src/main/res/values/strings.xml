@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParsableData</string>
+    <string name="str_hnt_sname">Student Name</string>
+    <string name="str_hnt_saddress">Student Address</string>
+    <string name="str_hnt_scourse">Student Course</string>
+    <string name="str_hnt_sage">Student Age</string>
+    <string name="str_btn_ok">OK</string>
+</resources>

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "344466674830",
+    "project_id": "medicine-8551e"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344466674830:android:4a75ed53c8be8694",
+        "android_client_info": {
+          "package_name": "com.heena.testingfirebasecloud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx94djfmxZ0UfLsuvFYfZ4balYZ0WxE8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
