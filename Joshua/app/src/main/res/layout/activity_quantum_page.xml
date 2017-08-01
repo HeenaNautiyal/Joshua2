@@ -1,181 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context="com.bizhawkz.emotionallyfreetv.joshua.ContactUs">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/Appbar"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_height="wrap_content"
-            android:paddingLeft="10sp"
+            android:layout_width="fill_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/orange"
+            android:layout_weight="1.92">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantum Energy"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="52dp"
+                android:id="@+id/iv_back"
+                android:src="@drawable/arrowfwd"/>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/tv_ll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:orientation="vertical"
-            android:weightSum="1">
-            <TextView
-                android:id="@+id/tv_firstname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="First Name" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/ed_firstname"
-                android:textColor="@color/dark"
-                />
-            <TextView
-                android:id="@+id/tv_lastname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Last Name" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:id="@+id/ed_lastname"
-                />
-            <TextView
-                android:id="@+id/tv_email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Email" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:id="@+id/ed_email"
-                android:hint="Enter your Email:"
-                />
-            <TextView
-                android:id="@+id/tv_address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
 
-                android:text="Address" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:hint="Street Address"
-                android:id="@+id/ed_address"
-                />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:hint="Street Address Line 2"
-                android:id="@+id/ed_address2"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <EditText
-                    android:layout_width="181dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="22sp"
+                android:layout_marginRight="22sp"
+                android:layout_marginTop="40dp"
+                android:background="@color/lightgrey">
+
+                <TextView
+                    android:id="@+id/tv_text1"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="Video will be updated soon."
                     android:textColor="@color/dark"
-                    android:hint="City"
-                    android:id="@+id/ed_city"
-                    />
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/dark"
-                    android:hint="State"
-                    android:id="@+id/ed_state"
-                    />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <EditText
-                    android:layout_width="181dp"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/dark"
-                    android:hint="Postal/Zip Code"
-                    android:id="@+id/ed_postal"
-                    />
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/dark"
-                    android:hint="Country"
-                    android:id="@+id/ed_country"
-                    />
-            </LinearLayout>
-            <TextView
-                android:id="@+id/tv_skypeid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Skype Id" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:id="@+id/ed_skypeid"
-                />
-            <TextView
-                android:id="@+id/tv_upload"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Upload a digital photo" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_choose"
-                android:text="Choose File"/>
-            <TextView
-                android:id="@+id/tv_webaddress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Web address of the photo:" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:id="@+id/ed_webaddress"
-                />
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/ch_tv"
-                android:text="Join TV Show List"/>
-            <TextView
-                android:id="@+id/tv_story"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:textSize="20sp"
-                android:text="Tell us your story" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/dark"
-                android:id="@+id/ed_story"
-                />
+                    android:textSize="17sp" />
+            </RelativeLayout>
 
             <Button
-                android:id="@+id/btn_submit"
-                android:layout_width="361dp"
-                android:layout_height="60dp"
-                android:text="Submit" />
+                android:id="@+id/btn_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@color/orange"
+                android:text="Apply for Quantum Energy"
+                android:textColor="@android:color/white" />
         </LinearLayout>
-    </ScrollView>
 
+    </LinearLayout>
 </LinearLayout>
-
 

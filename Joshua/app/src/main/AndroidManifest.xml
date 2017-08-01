@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bizhawkz.emotionallyfreetv.joshua">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,18 +15,49 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeScren" />
-        <activity android:name=".QuantumPage" />
-        <activity android:name=".MenuPage" />
-        <activity android:name=".TVseries" />
-        <activity android:name=".SecondActivity"></activity>
+        <activity
+            android:name=".QuantumPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TVseries"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TVClass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TVRating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Test"
+            android:screenOrientation="portrait" />
+        <activity android:name=".QuanEnergy" />
+        <activity
+            android:name=".IVCalender"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NewQuantum" />
+        <activity android:name=".newHomeScreen" />
+        <activity android:name=".Sevendays" />
+        <activity android:name=".About" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Splash" />
     </application>
 
 </manifest>
